@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zomato</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="head">
+        <div class="nav">
+            <a href="">Add restaurant</a>
+            <a href="">Log in</a>
+            <a href="">Sign up</a>
+        </div>
+        <img src="zom.png" alt="">
+
+        <h1 class="fom">zomato</h1>
+
+        <p class="greet">Discover the best food & drinks in Kanpur</p>
+
+        <input type="text" class="loc" id="loc" placeholder="Adress">
+        <input name="adress" class="dish" id="dish" placeholder="Search for restaurant, cuisine or a dish">
+        <div class="search"><img src="search.png" alt=""></div>
+        <div class="dd"><img src="dt.png" id="ar" alt=""></div>
+        <div class="locic"><img src="loc.png" alt=""></div>
+
+    </div>
+    <div class="cards">
+        <div class="ofo">
+            <img src="ofo.webp" alt="">
+            <h6 class="of">Order Food Online</h6>
+        </div>
+        <div class="gofm">
+            <img src="gofm.webp" alt="">
+            <h6 class="of">Go out for meal</h6>
+        </div>
+        <div class="fp">
+            <img src="fp.webp" alt="">
+            <h6 class="of">Fomato Pro</h6>
+        </div>
+        <div class="nc">
+            <img src="nc.jpg" alt="">
+            <h6 class="of">Nightlife & Club</h6>
+        </div>
+    </div>
+
+    <div class="locbox" id="locbox">
+        <h5>Detect current location</h5>
+        <img src="loct.png" alt="" width="20px">
+    </div>
+    <div class="ds" id="ds"></div>
+<div class="col">
+    <h1>Collections</h1>
+    <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Kanpur, based on trends</p>
+    <a href="">All Collections in Kanpur ></a>
+    <div class="card">
+       <div class="bik"> 
+           <h2>Best in Kanpur</h2>
+       </div>
+       <div class="os">
+           <h2>Outdoor Seating</h2>
+       </div>
+       <div class="st">
+           <h2>Sweet Tooth</h2>
+       </div>
+       <div class="sis">
+           <h2>South Indian Special</h2>
+       </div>
+    </div>
+</div>
+    <div class="ai">
+        <img src="zapp.webp" alt="">
+        <h1>Get The Zomato App</h1>
+        <p>We will send you a link, open it on your phone to download the app</p>
+        <div class="rb">
+            <input type="radio" id="Email" name="cn" checked onclick="ci(id)"> 
+            <label for="Email">Email</label>
+            <input type="radio" id="Phone" name="cn" onclick="ci(id)">
+            <label for="Phone">Phone</label>
+            <div class="box" >
+                <form action="">
+                <input type="Email" placeholder="Email" id="box" name="box">
+                <button type="submit" class="btn">Share App Link</button>
+            </form>
+            <div class="appp">
+                <p>Download App From</p>
+                <div class="da">
+                <a href="https://bnc.lt/download-zomato-ios">
+                    <img src="as.webp" alt="">
+                </a>
+                
+                <a href="https://bnc.lt/download-z-android">
+                    <img src="gp.webp" alt="">
+                </a>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="expl">
+        <h1>Explore other options for you here</h1>
+        <div class="cui">
+            <h3>Popular cuisines near me  </h3>
+          <p>
+              <a href="">Bakery food near me</a><span class="dot"></span>
+              
+              <a href="">Beverages food near me</a>
+              <span class="dot"></span>
+        
+              <a href="">Biryani food near me</a><span class="dot"></span>
+              <a href="">Burger food near me</a><span class="dot"></span>
+              <a href="">Chinese food near me</a><span class="dot"></span>
+              <a href="">Continental food near me</a><span class="dot"></span>
+              <a href="">Desserts food near me</a><span class="dot"></span>
+              <a href="">Ice Cream food near me</a><span class="dot"></span>
+              <a href="">Italian food near me</a><span class="dot"></span>
+              <a href="">Mithai food near me</a><span class="dot"></span>
+              <a href="">Momos food near me</a><span class="dot"></span>
+              <a href="">Mughlai food near me</a><span class="dot"></span>
+              <a href="">North Indian food near me</a><span class="dot"></span>
+              <a href="">Pizza food near me</a><span class="dot"></span>
+              <a href="">Rolls food near me</a><span class="dot"></span>
+              <a href="">Sandwich food near me</a><span class="dot"></span>
+              <a href="">Shake food near me</a><span class="dot"></span>
+              <a href="">South Indian food near me</a><span class="dot"></span>
+              <a href="">Street food near me</a><span class="dot"></span>
+              <a href="">Tea food near me</a>
+          </p>
+        </div>
+        <div class="restrnt">
+            <h3>Popular restaurant types near me</h3>
+            <p>
+            <a href="">Bakeries near me</a><span class="dot"></span>
+              
+            <a href="">Bars near me</a>
+            <span class="dot"></span>
+      
+            <a href="">Beverage Shops near me</a><span class="dot"></span>
+            <a href="">Bhojanalya near me</a><span class="dot"></span>
+            <a href="">Cafés near me</a><span class="dot"></span>
+            <a href="">Casual Dining near me</a><span class="dot"></span>
+            <a href="">Clubs near me</a><span class="dot"></span>
+            <a href="">Cocktail Bars near me</a><span class="dot"></span>
+            <a href="">Confectioneries near me</a><span class="dot"></span>
+            <a href="">Dessert Parlors near me</a><span class="dot"></span>
+            <a href="">Dhabas near me</a><span class="dot"></span>
+            <a href="">Fine Dining near me</a><span class="dot"></span>
+            <a href="">Food Courts near me</a><span class="dot"></span>
+            <a href="">Food Trucks near me</a><span class="dot"></span>
+            <a href="">Kiosks near me</a><span class="dot"></span>
+            <a href="">Lounges near me</a><span class="dot"></span>
+            <a href="">Meat Shops near me</a><span class="dot"></span>
+            <a href="">Paan Shop near me</a><span class="dot"></span>
+            <a href="">Quick Bites near me</a><span class="dot"></span>
+            <a href="">Sweet Shops near me</a>
+            </p>
+        </div>
+        <div class="chains">
+            <h3>Top Restaurant Chains</h3>
+            <p><a href="">Bikanervala</a>
+            <a href="">Burger King</a>
+            <a href="">KFC</a>
+            <a href="">McDonald's</a>
+            <a href="">Pizza Hut</a>
+            <a href="">Sagar Ratna</a>
+            <a href="">WOW! Momo</a></p>
+        </div>
+        <div class="ct">
+            <h3>Cities We Deliver To</h3>
+            <p>
+                <a href="">Delhi NCR</a>
+                <a href="">Kolkata</a>
+                <a href="">Mumbai</a>
+                <a href="">Bengaluru</a>
+                <a href="">Pune</a>
+                <a href="">Hyderabad</a>
+                <a href="">Chennai</a>
+                <a href="">Lucknow</a>
+                <a href="">Kochi</a>
+                <a href="">Jaipur</a>
+                <a href="">Ahmedabad</a>
+                <a href="">Chandigarh</a>
+                <a href="">Goa</a>
+                <a href="">Indore</a>
+                <a href="">Nashik</a>
+                <a href="">Ooty</a>
+                <a href="">Shimla</a>
+                <a href="">Ludhiana</a>
+                <a href="">Guwahati</a>
+                <a href="">Amritsar</a>
+                <a href="">Kanpur</a>
+                <a href="">Allahabad</a>
+                <a href="">Aurangabad</a>
+                <a href="">Bhopal</a>
+                <a href="">Ranchi</a>
+                <a href="">Visakhapatnam</a>
+                <a href="">Bhubaneswar</a>
+                <a href=""> Coimbatore</a>
+                <a href=""> Mangalore</a>
+                <a href=""> Vadodara</a>
+                <a href=""> Nagpur</a>
+                <a href=""> Agra</a>
+                <a href=""> Dehradun</a>
+                <a href=""> Mysore</a>
+                <a href=""> Puducherry</a>
+                <a href=""> Surat</a>
+                <a href=""> Varanasi</a>
+                <a href=""> Patna</a>
+                <a href=""> Udaipur</a>
+                <a href=""> Cuttack</a>
+                <a href=""> Trivandrum</a>
+                <a href=""> Haridwar</a>
+                <a href=""> Leh</a>
+                <a href=""> Pushkar</a>
+                <a href=""> Rajkot</a>
+                <a href=""> Madurai</a>
+                <a href=""> Kozhikode</a>
+                <a href=""> Alappuzha</a>
+                <a href=""> Thrissur</a>
+                <a href=""> Manipal</a>
+                <a href=""> Vijayawada</a>
+                <a href=""> Jodhpur</a>
+                <a href=""> Kota</a>
+                <a href=""> Ajmer</a>
+               <a href=""> Mussoorie</a>
+               <a href=""> Rishikesh</a>
+               <a href=""> Jalandhar</a>
+               <a href=""> Jammu</a>
+               <a href=""> Manali</a>
+               <a href=""> Dharamshala</a>
+               <a href=""> Raipur</a>
+               <a href=""> Gorakhpur</a>
+               <a href=""> Palakkad</a>
+               <a href="" class="sm">See More</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+
+        <div class="logo">
+            <img src="logo.webp" alt="">
+        </div>
+        <div class="country" id="country">
+        </div>
+
+        <div class="cname" id="cname">
+            <div class="India" style="user-select: auto;">
+                <div class="flag" style="user-select: auto;">
+                    <p style="user-select: auto;">India</p>
+                </div>
+            </div>
+            <img src="dt.png" alt="">
+
+
+        </div>
+        <div class="rbox" id="rbox"></div>
+        <div class="lan" id="lan">
+            <img src="dt.png" class="dt2" alt="">
+            <div class="sln" id="sln" style="user-select: auto;">English</div>
+            <div class="optn" id="optn">
+                <h3 id="en" class="selected" onclick=changelan(id)>English</h3>
+                <h3 id="hn" onclick=changelan(id)>हिंदी</h3>
+            </div>
+            <div class="rbox" id="rbox2"></div>
+            <img src="languagelogo.png" class="lani" alt="">
+
+        </div>
+        <div class="fo cmpny">
+            <h2>COMPANY</h2>
+            <a href="#">Who We Are</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+            <a href="#">Report Fraud</a>
+            <a href="#">Contact</a>
+            <a href="#">Investor Relations</a>
+        </div>
+        <div class="fo ff">
+            <h2>FOR FOODIES</h2>
+            <a href="#">Code Of Conduct</a>
+            <a href="#">Community</a>
+            <a href="#">Blogger Help</a>
+            <a href="#">Mobile Apps</a>
+        </div>
+        <div class="fo fr">
+            <h2>FOR RESTAURANTS</h2>
+            <a href="#">Add a restaurant</a>
+        </div>
+        <div class="fo fe">
+            <h2>FOR ENTERPRISES
+            </h2>
+            <a href="#">Zomato For Work</a>
+        </div>
+        <div class="fo fy">
+            <h2>FOR YOU</h2>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Security</a>
+            <a href="#">Sitemap</a>
+        </div>
+        <div class="sl">
+            <h2>SOCAIL LINK</h2>
+           <a href="https://www.facebook.com/zomato"><img src="facebook.png" alt=""></a>
+            <a href="https://twitter.com/zomato"><img src="twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/zomato/"><img src="instagram.png" alt=""></a>
+        </div>
+        <div class="ap">
+            <a href="https://bnc.lt/download-zomato-ios">
+                <img src="as.webp" alt="">
+            </a>
+            
+            <a href="https://bnc.lt/download-z-android">
+                <img src="gp.webp" alt="">
+            </a>
+        </div>
+        <div class="line">
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.
+
+        </div> 
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

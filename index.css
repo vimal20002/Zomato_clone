@@ -1,0 +1,1422 @@
+.head img {
+  height: 440px;
+  width: 101%;
+  z-index: 0;
+  position: relative;
+  top: 0px;
+}
+.head {
+  position: relative;
+  top: -50px;
+  left: -20px;
+  right: 1000px;
+}
+
+body {
+  height: 10000px;   
+  margin: 0px;
+  
+
+}
+
+
+.fom {
+  display: inline-block;
+ 
+  position: relative;
+  top: -23rem;
+  left: 32rem;
+  z-index: 1;
+  color: white;
+  font-size: 100px;
+  margin: auto;
+}
+.greet {
+ 
+  letter-spacing: 1px;
+  position: absolute;
+  top: 170px;
+  left: 300px;
+  font-size: 40px;
+  color: white;
+  z-index: 1;
+  display: inline-block;
+}
+
+
+.dish {
+  position: absolute;
+  top: 280px;
+  left: 645px;
+  width: 420px;
+  height: 45px;
+
+  text-align: justify;
+  font-size: 15px;
+  border-color: white;
+  border-left: white 0px solid;
+  border-bottom-right-radius: 0.8rem;
+  z-index: 1;
+  border-top-right-radius: 0.8rem;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.nav {-webkit-box-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  left: -100px;
+  top: 70px;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  column-gap: 40px;
+  z-index: 1;
+}
+.loc {
+  position: absolute;
+  z-index: 1;
+top: 280px;
+left: 341px;
+  font-size: 15px;
+  height: 45px;
+  width: 260px;
+}
+input {
+  border-width: 0px;
+  outline: 0px;
+}
+.search {
+  background-color: white;
+  z-index: 2;
+  height: 47px;
+  position: absolute;
+  top: 280px; 
+  left: 605px;
+  display: inline-block;
+}
+.search img {
+  padding-top: 13px;
+  width: 40px;
+  height: 20px;
+}
+.dd {
+  position: absolute;
+  z-index: 2;
+  width: 40px;
+  top: 285px;
+  left: 565px;
+  height: 25px;
+  cursor: pointer;
+  padding-top: 12px;
+  font-weight: bold;
+  background-color: white;
+}
+.dd img{
+  width: 25px;
+  height: 15px;
+}
+.dd select {
+  border: none;
+  outline: none;
+}
+.locic {
+  display: inline-block;
+  position: absolute;
+  top: 280px;
+  left: 292px;
+  z-index: 2;
+  background-color: white;
+  height: 47px;
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+}
+.locic img {
+  padding-top: 10px;
+  width: 50px;
+  height: 30px;
+}
+.cards {
+  position: relative;
+  top: -100px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 50px;
+  cursor: pointer;
+  padding-left: 120px;
+}
+.ofo {
+  position: relative;
+  border: 1px solid rgb(214, 210, 210);
+  font-size: 35px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  width: 265px;
+  height: 250px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.ofo img,
+.gofm img,
+.fp img,
+.nc img {
+  width: 16.6rem;
+  height: 13rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.of {
+  position: relative;
+  top: -50px;
+}
+.ofo:hover,
+.gofm:hover,
+.fp:hover,
+.nc:hover {
+  transform: scale(1.1);
+   
+    
+
+}
+* {
+  transition: 0.5s;
+}
+.gofm {
+  position: relative;
+  border: 1px solid rgb(214, 210, 210);
+  font-size: 35px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  width: 265px;
+  height: 250px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  
+}
+.fp {
+  position: relative;
+  border: 1px solid rgb(214, 210, 210);
+  font-size: 35px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  width: 265px;
+  height: 250px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.nc {
+  position: relative;
+  border: 1px solid rgb(214, 210, 210);
+  font-size: 35px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  width: 265px;
+  height: 250px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+/* mail krna h
+help@drinkbeyond.co.in 
+lets try search krna h*/
+
+.locbox{
+  display: none;
+    width: 22rem;
+    max-height: 101px;
+    /* //ef4f5f */
+    background: white;
+    border-radius: 0.8rem;
+    position: absolute;
+    left: 280px;
+    overflow: auto;
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    top: 290px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+  
+
+}
+.locbox h5{
+
+  color: #ef4f5f;
+  font-size: 20px;
+  padding-left: 40px;
+}
+.locbox img{
+  position: absolute;
+  top: 34px;
+  padding-left: 10px;
+}
+.ds{
+  display: none;
+  width: 30rem;
+  max-height: 101px;
+  background: white;
+  border-radius: 0.8rem;
+  position: absolute;
+  left: 570px;
+  overflow: auto;
+  border: 1px solid rgb(207, 207, 207);
+  box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  top: 290px;
+  visibility: visible;
+  opacity: 1;
+}
+.col{
+  position: relative;
+
+  display: inline-block;
+}
+.col h1{
+  color: #000000c2;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 117px;
+}
+.col p{
+  color: #000000af;
+  font-size: 22px;
+  display: inline-block;
+  position: absolute;
+  left: 117px;
+  top: 50px;
+}
+.col a{
+  color: #ef4f5f;
+  text-decoration: none;
+  position: absolute;
+  left: 980px;
+  top: 70px;
+  width: 250px;
+  font-size: 22px;
+  display: inline-block;
+}
+.card{
+  position: relative;
+  top: 150px;
+  
+  display: inline-flex;
+  flex-wrap: wrap;
+padding-left: 117px;
+  row-gap: 50px ;
+  column-gap: 30px;
+}
+
+.bik {
+ 
+  width: 250px;
+  height: 330px;
+  background: url(bik.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+.card h2{
+  color: rgb(255, 255, 255);
+  background-color: rgba(59, 59, 59, 0.541);
+  position: relative;
+  top: 260px;
+  width: 250px;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.os{
+  width: 250px;
+  height: 330px;
+  background: url(os.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.st{
+  width: 250px;
+  height: 330px;
+  background: url(st.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+.sis{
+  width: 250px;
+  height: 330px;
+  background: url(sis.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.country{
+  position: relative;
+  top: -430px;
+  left: 400px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 31rem;
+  height: 25rem;
+  background-color: white;
+  border: 1px white solid;
+  padding-top: 20px;
+  box-shadow: 10px 30px 70px rgba(0,0,0,0.2);
+  border-radius: 12px;
+  z-index: 2;
+  cursor: pointer;
+}
+.country p{
+  position: relative;
+  margin: 0px;
+  top: -17px;
+  left: 40px;
+  font-size: 18px;
+  display: inline-block;
+}
+.India{
+  align-items: left;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  width: 100px;
+}
+.India .flag{
+background:url(flag.avif) -75px 0px no-repeat ;
+background-size: cover;
+/* transform: scale(1.05); */
+width: 24px;
+height: 16px;
+}
+.Australia .flag{
+  background:url(flag.avif) -175px 0px no-repeat ;
+  background-size: cover;
+  /* transform: scale(1.05); */
+  width: 24px;
+  height: 16px;
+}
+.Australia{
+  align-items: left;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  width: 120px;
+}
+.Brazil .flag{
+  background:url(flag.avif) -451px 0px no-repeat ;
+  background-size: cover;
+  /* transform: scale(1.05); */
+  width: 24px;
+  height: 16px;
+}
+.Brazil{
+  align-items: left;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  width: 100px;
+}
+.Canada .flag{
+  background:url(flag.avif) -101px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Canada{
+  align-items: left;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  width: 100px;
+}
+.Chile .flag{
+  background:url(flag.avif) -126px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Chile{
+  align-items: left;
+  position: relative;
+  top: -15px;
+  left: 14px;
+  width: 100px;
+}
+.Czech .flag{
+  background:url(flag.avif) -301px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Czech{
+  align-items: left;
+  position: relative;
+  top: -5px;
+  left: 14px;
+  width: 110px;
+}
+.Indonesia .flag{
+  background:url(flag.avif) -501px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Indonesia{
+  align-items: left;
+  position: relative;
+  top: -15px;
+  left: 14px;
+  width: 110px;
+}
+.Ireland .flag{
+  background:url(flag.avif) -225px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Ireland{
+  align-items: left;
+  position: relative;
+  top: -15px;
+  left: 20px;
+  width: 110px;
+}
+.Italy .flag{
+  background:url(flag.avif) -551px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Italy{
+  align-items: left;
+  position: relative;
+  top: -15px;
+  left: 7px;
+  width: 110px;
+}
+.Lebanon .flag{
+background:url(flag.avif) -526px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Lebanon{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: -10px;
+  width: 110px;
+}
+.Malaysia .flag{
+background:url(flag.avif) 1px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Malaysia{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: -7px;
+  width: 110px;
+}
+.New .flag{
+background:url(flag.avif) -401px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.New{
+align-items: left;
+  position: relative;
+  top: -5px;
+  left: 14px;
+  width: 95px;
+}
+.Philippines .flag{
+background:url(flag.avif) -25px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Philippines{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 14px;
+  width: 110px;
+}
+.Poland .flag{
+background:url(flag.avif) -476px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Poland
+{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 25px;
+  width: 110px;
+}
+.Portugal .flag{
+background:url(flag.avif) -352px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Portugal{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 16px;
+  width: 110px;
+}
+.Qatar .flag{
+background:url(flag.avif) -377px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Qatar{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 20px;
+  width: 110px;
+}
+.Singapore .flag{
+background:url(flag.avif) -327px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Singapore{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 3px;
+  width: 110px;
+}
+.Slovakia .flag{
+background:url(flag.avif) -426px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Slovakia{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 20px;
+  width: 110px;
+}
+.South .flag{
+background:url(flag.avif) -200px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.South{
+align-items: left;
+  position: relative;
+  top: -5px;
+  left: 23px;
+  width: 90px;
+}
+.Sri .flag{
+background:url(flag.avif) -49px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Sri{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 18px;
+  width: 110px;
+}
+.Turkey .flag{
+background:url(flag.avif) -577px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.Turkey{align-items: left;
+  position: relative;
+  top: -15px;
+  left: 10px;
+  width: 110px;
+}
+.UAE .flag{
+background:url(flag.avif) -276px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.UAE{
+align-items: left;
+  position: relative;
+  top: -15px;
+  left: 14px;
+  width: 110px;
+}
+.United .flag{
+background:url(flag.avif) -251px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.United{
+align-items: left;
+  position: relative;
+  top: -5px;
+  left: 14px;
+  width: 110px;
+}
+.USA .flag{
+background:url(flag.avif) -151px 0px no-repeat ;
+  background-size: cover;
+  width: 24px;
+  height: 16px;
+}
+.USA{
+  align-items: left;
+  position: relative;
+  top: -15px;
+  left: 14px;
+  width: 110px;
+}
+.selected{
+  background-color: rgba(135, 207, 235, 0.322);
+}
+footer{
+  position: relative;
+  top: 500px; 
+   background-color: rgb(248, 248, 248);
+  max-width: 91%;
+  height: 456px;
+  padding-left: 117px;
+  padding-right: 84px;
+}
+.logo img{
+  position: relative;
+  top: 50px;
+  width: 150px;
+}
+.cname{
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 860px;
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  width:150px;
+  height: auto;
+  overflow:hidden;
+  align-items: center;
+  align-content: center;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cname img{
+  width: 25px;
+  position: absolute;
+  top: 17px;
+  left: 130px;
+}
+.cname p{
+  font-size: 20px;
+  padding-left: 37px;
+  position: relative;
+  top: -3px;
+}
+.rbox{
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 13px;
+  left: 950px;
+  transform: rotate(45deg);
+  z-index: 2;
+  background-color: white;
+}
+.lan{
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  width: 150px;
+  position: absolute;
+  top: 40px;
+  left: 1080px;
+  height: 55px;
+  border-radius: 10px;
+cursor: pointer;
+}
+.lani{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.optn{
+  display: none;
+  height: 100px;
+  width: 150px;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: -135px;
+ left: -50px;
+ box-shadow: 5px 5px 80px rgba(51, 51, 51, 0.767);
+}
+.optn h3{
+  margin: 0px;
+  padding-bottom: 20px;
+  color: rgba(39, 39, 39, 0.904);
+  font-weight: 300;
+}
+.lan .rbox{
+  display: none;
+  position: absolute;
+  left: 60px;
+  top: -25px;
+}.sln{
+  padding-top: 15px;
+  padding-left: 60px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.dt2{
+  width: 22px;
+  position: absolute;
+  top: 18px;
+  left: 122px;
+}
+.fo{
+  position: absolute;
+  top: 100px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 10px;
+  font-weight: 100px;
+}
+.fo h2{
+  font-weight: 100;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.fo a{
+  text-decoration: none;
+    color: #696969;
+
+}
+.cmpny{
+  left: 117px;
+}
+.ff{
+  left: 330px;
+}
+.fr{
+  left: 550px;
+}
+.fe{
+  left: 550px;
+  top: 200px;
+}
+.fy{
+  left: 800px;
+}
+.sl{
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+  
+}
+.sl h2{
+  font-weight: 100;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.sl img{
+  width: 20px;
+  
+}
+.ap{
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  display: inline-flex;
+  flex-direction: column;
+  
+}
+.ap img{
+  width: 137px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+.line{
+  position: absolute;
+  top: 375px;
+  font-size: 15.5px;
+  border-top: 1px #696969 solid;
+  padding-top: 20px;
+  margin-right: 100px;
+  color: #696969;
+}
+
+.ai{
+  height: 489px;
+  background-color: #fffbf7;
+  position: relative;
+  top: 500px;
+}
+.ai img{
+  height: 450px;
+  position: relative;
+  left: 350px;
+  width: 250px;
+}
+.ai h1{
+  position: absolute;
+  top: 30px;
+  left: 650px;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+}
+.ai p{
+  position: absolute;
+  top: 110px;
+  left: 650px;
+  font-size: 20px;
+  width: 380px;
+  color: rgba(65, 65, 65, 0.897);
+}
+
+.rb{
+  display: inline-block;
+  position: absolute;
+  top: 230px;
+  left: 650px;
+}
+label{
+  padding-right: 50px;
+  font-size: 20px;
+}
+#Email{
+  transform: scale(1.8);
+  
+}
+#Phone{
+  transform: scale(1.8);
+}
+.box{
+  position: absolute;
+  top: 50px;
+}
+.box input{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #696969;
+  font-size: 20px;
+}
+.btn{
+  position: absolute;
+  top: 0px; 
+  width: 150px;
+  height: 55px;
+  background-color: #ef4f5f;
+  color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+.btn:hover{
+  
+  background: rgb(224, 53, 70);
+  border-color: rgb(36, 150, 63);
+}
+.appp{
+position: absolute;
+top: 100px;
+
+}
+.appp p{
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  font-size: 18px;
+}
+.appp img{
+  height: 40px;
+  width: 150px;
+}
+.da{
+  position: absolute;
+  top: 20px;
+  left: -350px;
+  width: 400px;
+}          
+.expl{
+  position: relative;
+  top: 500px;
+  background-color: #fcfcfc;
+}
+.expl h1{
+  font-weight: 600;
+  position:absolute;
+  left: 117px;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+.cui{
+  position: relative;
+  left: 0px;
+  padding-top: 90px;
+  display: inline-block;
+
+}
+.expl h3{
+font-size: 23px;
+font-weight: 600;
+padding-left: 117px;
+
+
+}
+.expl p{
+  padding-left: 117px;
+  font-size: 20px;
+}
+
+.expl a{
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+.restrnt{
+  position: relative;
+  padding-top: 90px;
+  left: 0px;
+}
+.chains{
+  position: relative;
+  padding-top: 120px;
+} 
+.chains a{
+  padding-right: 160px;
+}
+.ct{
+  position: relative;
+  padding-top: 140px;
+  display: inline-block;
+}
+.ct p{
+  display: inline-flex;
+  row-gap: 50px;
+  column-gap: 150px;
+  color: #3b3b3bea;
+
+  flex-wrap: wrap;}
+
+
+.ct a{
+  width: 100px;
+}
+.sm {
+  font-weight: 900;
+  color: #000000;
+  border-bottom: 2px black solid;
+text-align: center;
+}
+
+
+.dot{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: rgb(130, 130, 130);
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-right: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1288px) {
+  .collections a{
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  
+}
+@media screen and (max-width:1249px) {
+  .cname{
+    left: 117px;
+    top: 350px;
+  }
+  .lan{
+    left: 337px;
+    top: 350px;
+  }
+  .line{
+    top: 500px;
+  }
+  .country{
+    top: -120px;
+    left: -100px;
+  }
+  .rbox{
+    top: 328px;
+    left: 200px;
+  }
+  .optn{
+    z-index: 2;
+  }
+  footer{
+    height: 600px;
+  }
+}
+@media screen and (max-width:1158px) {
+  .sl{
+    top: 400px;
+    left: 117px;
+  }
+  .ap{
+    top: 480px;
+    left: 117px;
+  }
+  .line{
+    top: 600px;
+  }
+  footer{
+    height: 700px;
+  }
+}
+@media screen and (max-width:874px) {
+  .fy{
+    left: 117px;
+    top: 320px;
+  }
+  .cname{
+    left: 117px;
+    top: 480px;
+  }
+  .lan{
+    left: 337px;
+    top: 480px;
+  }
+  .line{
+    top: 720px;
+  }
+  .country{
+    top: 10px;
+    left: -100px;
+  }
+  .rbox{
+    top: 458px;
+    left: 200px;
+  }
+  .optn{
+    z-index: 2;
+  }
+  footer{
+    height: 800px;
+  }
+  .sl{
+    top: 530px;
+    left: 117px;
+  }
+  .ap{
+    top: 620px;
+    left: 117px;
+  }
+}
+@media screen and (max-width:713px) {
+  .fr{
+    left: 117px;
+    top: 470px;
+  }
+  .fe{
+    left: 117px;
+    top: 540px;
+  }
+  .cname{
+    left: 117px;
+    top: 630px;
+  }
+  .lan{
+    left: 337px;
+    top: 630px;
+  }
+  .line{
+    top: 880px;
+  }
+  .country{
+    top: 160px;
+    left: -100px;
+  }
+  .rbox{
+    top: 608px;
+    left: 200px;
+  }
+  .optn{
+    z-index: 2;
+  }
+  footer{
+    height: 1000px;
+  }
+  .sl{
+    top: 690px;
+    left: 117px;
+  }
+  .ap{
+    top: 780px;
+    left: 117px;
+
+}}
+@media screen and (max-width:1140px) {
+  .ai img{
+    left: 117px;
+  }
+  .ai h1{
+    left: 350px;
+  }
+  .ai p{
+    left: 350px;
+    top: 150px;
+  }
+  .rb{
+    left: 350px;
+  }
+  .appp{
+    left: 230px;
+  }
+  .appp p{
+    left: -230px;
+    top: -50px;
+  }
+  .ai{
+    width: 850px;
+  }
+}
+@media screen and (max-width:850px) {
+  .ai img{
+    left: 0px;
+  }
+  .ai h1{
+    left: 250px;
+  }
+  .ai p{
+    left: 250px;
+    top: 150px;
+  }
+  .rb{
+    left: 250px;
+  }
+  .appp{
+    left: 350px;
+  }
+  .appp p{
+    left: -350px;
+    top: -50px;
+  }
+  .ai{
+    width: 750px;
+  }
+}
+@media screen and (max-width:750px) {
+  #box{
+    width: 150px;
+  }
+}
+@media screen and (max-width:654px) {
+  .ai h1{
+    width: 200px;
+  }
+  .ai p{
+    top: 165px;
+    width: 200px;
+   }
+  .rb{
+    top: 270px;
+  }
+  .btn{
+    top: 70px;
+    left: -20px;
+  }
+  .appp p{
+    top: 20px;
+  }.da{
+    top: 80px;
+    width: 200px;
+  }
+  .ai{
+    height: 600px;
+  }
+}
+@media screen and (max-width:1084px) {
+  .collections p{
+width: 300px;
+top: 50px;
+  }
+  .collections a{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+  }
+.card{
+  top: 50px;
+}
+
+ 
+  .fom{
+    left: 200px;
+  }
+  .greet{
+    padding: 10px;
+    font-size: 30px;
+    left: 70px;
+  }
+  .loc{
+    left: 70px;
+  }
+  .locic{
+    left: 20px;
+  }
+  .dd{
+    left: 290px;
+  }
+  .search{
+    left: 330px;
+  }
+  .dish{
+    left: 370px;
+  }
+  .locbox{
+    left: 10px;
+  }
+  .ds{
+    left: 300px;
+  }
+}
+@media screen and (max-width:815px) {
+  .dish{
+    width: 300px;
+  }
+  .ds{
+    width: 22rem;
+  }
+  .greet{
+    left: 50px;
+  }
+}
+@media screen and (max-width:695px) {
+  .dish{
+    width: 200px;
+    left: 214px;
+  }
+  .loc{
+    width: 100px;
+  }
+  .dd{
+    left: 140px;
+  }
+  .search{
+    left: 174px;
+  }
+  .greet{
+    left: 20px;
+    font-size: 25px;
+  }
+  .fom{
+    left: 50px;
+  }
+  .ds{
+    left: 180px;
+    width: 15rem;
+  }
+  .locbox{
+    width: 15rem;
+  }
+}
+@media screen and (max-width:1266px) {
+  .col a{
+    left: 117px;
+    top: 130px;
+  }
+  .card{
+    top: 200px;
+  }
+}
+@media screen and (max-width:910px) {
+  .col p{
+    width: 300px;
+  }
+  .col a{
+    top: 180px;
+  }
+  .card{
+    top: 250px;
+  }
+}
